@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class program5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        System.out.print("Enter your height: ");
+        float height = sc.nextFloat();
+
+        System.out.print("Enter your marks: ");
+        double marks = sc.nextDouble();
+
+        System.out.println("\nUser Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Marks: " + marks);
+
+        sc.close();
+    }
+}
